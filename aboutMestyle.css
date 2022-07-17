@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+img{
+    width: 460px;
+    height: auto;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+   
+}
+.about-text{
+    width: 550px;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.main{
+    width: 1130px ;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    font-family: 'Amiri', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+        font-size: 80px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        color: white;
+}
+hr{
+    width: 500px;
+    border-top: 10px;
+   
+}
+.about-text h5{
+    font-family: 'Amiri', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: white;
+}
+span{
+    color: #F15412;
+}
+.about-text p{
+    font-family: 'Amiri', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration:none ;
+    padding: 20px 20px;
+    font-size: inter;
+    position: relative;
+    margin: 32px;
+}
+.btn-1{
+    background:#F15412;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+.btn-1::after. .btn-1::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: #F15412;
+    border-radius: inherit;
+    width: 30%%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+.btn-1:hover{
+    transform: translate(-12px, -12px);
+}
+.btn-1:hover::after{
+    transform: translate(6px, 6px);
+}
+.btn-1:hover::before{
+    transform: translate(-12px, -12px);
+}
